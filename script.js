@@ -1,0 +1,1 @@
+// Retrieve todo from local storage or initialise an empty array
