@@ -10,15 +10,14 @@ const deleteButton = document.getElementById("deleteButton");
 // Initialise
 document.addEventListener("DOMContentLoaded", 
     function() {
-        addButton.addEventListener("click", addTask();
+        addButton.addEventListener("click", addTask);
         todoInput.addEventListener("keydown", function(event) {
             if (event.key == "Enter") {
                 event.preventDefault();
                 addTask();
             }
-        })
-    }
-)
+        });
+    });
 
 function addTask() {
 
