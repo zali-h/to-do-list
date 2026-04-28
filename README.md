@@ -9,3 +9,5 @@ This is a simple HTML project where I will store and edit my to do list.
 
 # Project structure:
 - index.html
+- style.css
+- script.js
